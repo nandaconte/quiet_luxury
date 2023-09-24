@@ -1,0 +1,78 @@
+html{
+    font-family: 'Poppins', sans-serif;
+    background-color: #ECF9FF;
+    font-size: large;
+}
+
+.italic{
+    font-style: italic;
+    font-weight: bold;
+}
+.underline{
+    text-decoration: underline;
+}
+.container{
+    text-align: center;
+    background-color: #FFFBEB;
+    margin: 50px;
+    padding: 30px;
+  
+}
+.featured-image{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+       
+}
+.featured-image img{
+    width: 400px;
+    height: 500px;
+    margin: 10px;
+    border: 10px solid #F8CBA6;
+}
+
+.article-container{
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+.prosandcons_container{
+    display:flex;
+    justify-content: space-evenly;
+    text-align: center;
+    background-color:#FFE7CC;
+    padding: 30px;
+    border-radius: 50%;
+    border: 6px dashed #F8CBA6 ;
+    margin-bottom: 20px;
+}
+.prosandcons_container dt{
+    font-weight: bolder;
+}
+.prosandcons_container li{
+    list-style-type: circle;
+    text-align: left;
+}
+.conclusion-container{
+    text-align: justify;
+    
+}
+.newsletter{
+    display: flex;
+    flex-flow: column;
+    background-color: #FFE7CC;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.newsletter p{
+    font-weight: bolder;
+}
+.newsletter input{
+    text-align: center;
+}
+
+
+
+
